@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo_website</title>
+    <link rel="icon" href="logo.jpg" type="image/icons" sizes="20x20">
+    <style> 
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        background-image: url(background.jpg);
+    }
+    header {
+        background-image: url(wallpaper1.jpg);
+        color:white;
+        border-style:groove;
+    }
+    header.links {
+        color:red;
+    }
+    a {
+        margin: 10px;
+        color: #F7FFF7;
+        background: #1f3009;
+        text-decoration: none;
+        padding: 8px;
+        border-radius: 5px;
+        display: inline-block;
+    }
+    #menu {
+        float: right;
+        color:red;
+        font-weight: bold;
+        font-size:25px;
+    }
+    a:visited {
+        color:rgb(20, 216, 108)
+    }
+    a:hover {
+        color:aqua
+    }
+    section.part_1.head{
+        margin-top: 0%;
+        margin-right: 25px;
+        float: right; 
+    }
+    .avatar {
+        float: right;
+    }
+    img {
+        margin-top: 0px;
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        border-style: outset;
+        border-color: black;
+    }
+    h1 {
+        text-align: inherit;
+        font-size: 150px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:cadetblue
+    }
+    #name {
+        font-size:30px;
+        margin:0%;
+    }
+    p {
+        margin: 0%;
+        font-size: 20px;
+    }
+    </style>
+  </head>
+    <body> 
+        <header>
+            <div class="links"> 
+                <a href="#">Home</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+                <a href="#">Projects</a>
+                <a id="menu" href="#">Menu</a>
+            </div>
+        </header>
+        <section class="part_1">
+            <div class="avatar">
+                <img src="profile_pic.jpg">
+            </div>
+            <div class="head"> 
+                <h1>Portfolio<br>
+                    <p id="name">Bittu Raj</p>
+                    <p>Computer Science And Engineering Student</p>
+                </h1>
+            </div>
+        </section>
+       <section class="part_2"> 
+            <div class="first">
+                <h2>Projects</h2>
+            </div>
+            <div class="second">
+                <h3>About</h3>
+            </div>
+            <div class="third">
+                <h4>Skills</h4>
+            </div>
+       </section>
+
+    </body>
+  </html>
